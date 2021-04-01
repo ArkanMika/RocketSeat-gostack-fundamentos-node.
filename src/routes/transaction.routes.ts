@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import Transaction from '../models/Transaction';
 
 import TransactionsRepository from '../repositories/TransactionsRepository';
 import CreateTransactionService from '../services/CreateTransactionService';
@@ -21,6 +20,7 @@ transactionRouter.get('/', (request, response) => {
 transactionRouter.post('/', (request, response) => {
     try {
         const { title, value, type } = request.body;
+
         const createTransactionService = new CreateTransactionService(
             transactionsRepository,
         );
