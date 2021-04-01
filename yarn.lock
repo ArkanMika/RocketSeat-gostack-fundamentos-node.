@@ -1401,6 +1401,11 @@ data-urls@^1.1.0:
     whatwg-mimetype "^2.2.0"
     whatwg-url "^7.0.0"
 
+date-fn@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/date-fn/-/date-fn-0.0.2.tgz#26ef47168a12aefaea1d738069a2d42cc14cbb13"
+  integrity sha512-DBIKrlB2w9d6UPZwYn6qqSeKLwHt5uRf9Mj/PiGWHGQ5CxnvMCx2KteO5owfiknkYzMngrDwz5nX4CGxYlr0uA==
+
 dateformat@~1.0.4-1.2.3:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-1.0.12.tgz#9f124b67594c937ff706932e4a642cca8dbbfee9"

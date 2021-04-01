@@ -29,6 +29,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
+    "date-fn": "^0.0.2",
     "express": "^4.17.1",
     "uuid": "^8.3.0"
   }
